@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "version": 6,
+    "description": "Forced-choice trials with one qualifying minor-victim sex offense per round. Each round is same-gender only.",
+    "sourceCount": 8,
+    "qualifyingTargets": 59,
+    "fetchedAt": "2026-07-22T01:34:14.636Z"
+  },
+  "trials": [
+    {
+      "id": "t01",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-065.jpg",
+          "offense": "Sodomy 2nd & Enticing a Child",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-001.jpg",
+          "offense": "SENTENCE TO SERVE",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-043.jpg",
+          "offense": "Burglary 2nd",
+          "category": "property",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-067.jpg",
+          "offense": "Commit or Attempt Lewd Act on Child",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-004.jpg",
+          "offense": "Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-044.jpg",
+          "offense": "Human Trafficking 1st-Felony",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-069.jpg",
+          "offense": "Aggravated sexual contact with a child under 12",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-005.jpg",
+          "offense": "MENACING",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-045.jpg",
+          "offense": "Probation Violation",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-071.jpg",
+          "offense": "Solicitation of a minor",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-006.jpg",
+          "offense": "Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-046.jpg",
+          "offense": "Attempt to Elude",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t05",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-073.jpg",
+          "offense": "Enticing a child for immoral purposes",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-007.jpg",
+          "offense": "Driving Under the Influence (Alcohol)",
+          "category": "traffic",
+          "year": 2026
+        },
+        {
+          "image": "mug-048.jpg",
+          "offense": "Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t06",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-075.jpg",
+          "offense": "Dissemination or public display of child sexual abuse material",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-008.jpg",
+          "offense": "Driving Under the Influence (Controlled Substances)",
+          "category": "traffic",
+          "year": 2026
+        },
+        {
+          "image": "mug-050.jpg",
+          "offense": "Hold for outside agency",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t07",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-077.jpg",
+          "offense": "Child Molestation, Rape,",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-009.jpg",
+          "offense": "Menacing-Intimidation Only",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-052.jpg",
+          "offense": "Contempt of Court",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t08",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-079.jpg",
+          "offense": "Lewd or Lascivious Acts with a child under 14",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-010.jpg",
+          "offense": "Driving Under the Influence (Alcohol)",
+          "category": "traffic",
+          "year": 2026
+        },
+        {
+          "image": "mug-053.jpg",
+          "offense": "Theft of property 4th-Misdemeanor",
+          "category": "property",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t09",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-082.jpg",
+          "offense": "Sexual Abuse of Child less than 12, Enticing a Child to Enter, Porn Possession Material Minors, Sexual Abuse 2nd",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-011.jpg",
+          "offense": "Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-054.jpg",
+          "offense": "Theft of Property 2nd-Felony",
+          "category": "property",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-084.jpg",
+          "offense": "Sexual Indecency with a minor ...",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-012.jpg",
+          "offense": "Alias Writ of Arrest",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-056.jpg",
+          "offense": "Trafficking Drugs",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-086.jpg",
+          "offense": "Pandering or Possessing Visual or Print Medium Depicting Sexually Explicit Conduct Involving a Child 15 Counts 2012 ...",
+          "category": "sex",
+          "year": 2012
+        },
+        {
+          "image": "mug-013.jpg",
+          "offense": "Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-166.jpg",
+          "offense": "Burglary 2nd Possession of Marijuana 1st Possession of Controlled Substance-Felony Murder-Felony Murder-Felony Capital Murder Resisting Arre",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-088.jpg",
+          "offense": "Indecency With a Child 6 Counts 2019 ...",
+          "category": "sex",
+          "year": 2019
+        },
+        {
+          "image": "mug-014.jpg",
+          "offense": "Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-167.jpg",
+          "offense": "Contempt of Court Contempt of Court Contempt of Court Contempt of Court",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t13",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-090.jpg",
+          "offense": "10 Counts DistributingPossessingViewing Matter Depicting Sexually Explicit Conduct with a Minor on 8262013 ...",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-110.jpg",
+          "offense": "SENTENCE TO SERVE SENTENCE TO SERVE",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-168.jpg",
+          "offense": "Contempt of Court Contempt of Court Probation Revocation",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t14",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-092.jpg",
+          "offense": "First Degree Rape - Victim was a 15 year old female",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-112.jpg",
+          "offense": "Failure to Appear/Comply/Pay Failure to Appear/Comply/Pay Failure to Appear/Comply/Pay Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-169.jpg",
+          "offense": "Trafficking Drugs Promoting Prison Contraband 2nd-Felony (Drugs) Promoting Prison Contraband 1st-Felony (Weapon/Tool for escape) Possession",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t15",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-094.jpg",
+          "offense": "Second Degree Sexual Abuse - Victim was a 14 year old female",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-113.jpg",
+          "offense": "Driving Under the Influence (Controlled Substances) DRIVING ON WRONG SIDE OF ROADWAY Open Container-Alcohol in a Vehicle Methamphetamine-Pos",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-170.jpg",
+          "offense": "Contempt of Court Contempt of Court",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t16",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-096.jpg",
+          "offense": "Second Degree Sexual Abuse - Victim was a 12 year old female",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-114.jpg",
+          "offense": "Menacing-Intimidation Only PAROLE VIOLATION",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-171.jpg",
+          "offense": "Domestic Violence 3rd-Assault 3rd",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t17",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-098.jpg",
+          "offense": "2nd Degree Rape - Victim was a 16 year old female",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-115.jpg",
+          "offense": "Driving Under the Influence (Alcohol) DRIVERS LICENSE NOT IN POSSESSION RECKLESS DRIVING",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-172.jpg",
+          "offense": "SORNA Violation Domestic Violence 3rd-Assault 3rd Kidnapping 1st-Felony Burglary 1st probattion Revocation SORNA Violation Contempt of Court",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "t18",
+      "hasTarget": true,
+      "gender": "male",
+      "suspects": [
+        {
+          "image": "mug-100.jpg",
+          "offense": "2nd Degree Rape - Victim was a 14 year old female",
+          "category": "sex",
+          "year": 2026
+        },
+        {
+          "image": "mug-116.jpg",
+          "offense": "Failure to Appear/Comply/Pay Failure to Appear/Comply/Pay",
+          "category": "violent",
+          "year": 2026
+        },
+        {
+          "image": "mug-173.jpg",
+          "offense": "Endangerment of Welfare of Child Drug Paraphernalia-1st Offense Possession of Controlled Substance-Felony",
+          "category": "violent",
+          "year": 2026
+        }
+      ]
+    }
+  ]
+}

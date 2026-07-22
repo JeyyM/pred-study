@@ -1,0 +1,28 @@
+{
+  "name": "pred-test",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-faces": "node scripts/generate-faces.js",
+    "fetch-mugshots": "node scripts/fetch-mugshots.mjs",
+    "enrich-gender": "node scripts/enrich-gender.mjs",
+    "audit-offenses": "node scripts/audit-offenses.mjs",
+    "fix-orientation": "node scripts/fix-orientation.mjs",
+    "expand-pool": "node scripts/expand-pool.mjs",
+    "rebuild-trials": "node scripts/rebuild-trials.mjs"
+  },
+  "dependencies": {
+    "@vladmandic/face-api": "^1.7.15",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "sharp": "^0.35.3",
+    "vite": "^6.3.5"
+  }
+}
