@@ -10,8 +10,8 @@ export function normalizeGender(value) {
 
 export function parseGenderFromBjmRosterHtml(html) {
   const m =
-    html.match(/Gender:<\/span><\/div>\s*<div class="cell inmate_profile_data_content">([^<]+)/i) ||
-    html.match(/Gender:<\/span>\s*<\/div>\s*<div class="cell inmate_profile_data_content">([^<]+)/i);
+    html.match(/Gender:[\s\S]*?inmate_profile_data_content">\s*([^<]+)/i) ||
+    html.match(/Gender:<\/span><\/div>\s*<div class="cell inmate_profile_data_content">([^<]+)/i);
   return normalizeGender(m?.[1]);
 }
 

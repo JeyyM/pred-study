@@ -1,14 +1,24 @@
 import { getBiasLabel, pct } from '../utils/study';
-import BinomialChart from './BinomialChart';
 
-export default function ResultsScreen({ stats, totalTrials, onRestart }) {
+export default function ResultsScreen({ stats, totalTrials, onRestart, saveStatus, onRetrySave }) {
   const chance = 33;
-  const n = stats.answered || totalTrials;
 
   return (
     <section className="screen active">
       <div className="panel">
         <h1>Your results</h1>
+        {saveStatus === 'saving' ? <p className="save-status">Saving your results…</p> : null}
+        {saveStatus === 'saved' ? <p className="save-status">Your results were saved.</p> : null}
+        {saveStatus === 'error' ? (
+          <p className="save-status is-error">
+            Could not save your results.
+            {onRetrySave ? (
+              <button type="button" className="btn secondary" onClick={onRetrySave}>
+                Try again
+              </button>
+            ) : null}
+          </p>
+        ) : null}
 
         <div className="results-grid">
           <div className="result-card">
@@ -30,8 +40,6 @@ export default function ResultsScreen({ stats, totalTrials, onRestart }) {
             <div className="label">Misses</div>
           </div>
         </div>
-
-        <BinomialChart trials={n} score={stats.correct} />
 
         <div className="info-box debrief">
           <h2>Debrief</h2>

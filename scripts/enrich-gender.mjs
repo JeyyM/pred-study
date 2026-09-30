@@ -11,6 +11,7 @@ import {
   parseGenderFromBjmRosterHtml,
   parseGenderFromBjmSorHtml,
 } from './lib/gender.mjs';
+import { BJM_ROSTER_SITES, BJM_SOR_SITES, IOWA_ROSTER_SITES } from './lib/sources.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -19,26 +20,7 @@ const POOL_PATH = path.join(ROOT, 'src', 'data', 'mugshot-pool.json');
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36';
 
-const BJM_ROSTER_SITES = [
-  { id: 'al-chilton-jail', state: 'AL', base: 'https://www.chiltoncountyso.org', pages: 3 },
-  { id: 'ar-logan-jail', state: 'AR', base: 'https://www.loganso.com', pages: 3 },
-  { id: 'mo-stone-jail', state: 'MO', base: 'https://www.stonecountymosheriff.com', pages: 3 },
-  { id: 'al-pickens-jail', state: 'AL', base: 'https://www.pcsoal.org', pages: 3 },
-];
-
-const BJM_SOR_SITES = [
-  { id: 'al-chilton-sor', state: 'AL', base: 'https://www.chiltoncountyso.org' },
-  { id: 'ar-logan-sor', state: 'AR', base: 'https://www.loganso.com' },
-  { id: 'al-pickens-sor', state: 'AL', base: 'https://www.pcsoal.org' },
-];
-
-const IOwa_SITES = [
-  {
-    id: 'ia-winneshiek-jail',
-    state: 'IA',
-    base: 'https://winneshiekcounty.iowa.gov/departments/sheriff/current-inmates',
-  },
-];
+const IOwa_SITES = IOWA_ROSTER_SITES;
 
 const SEX_PATTERNS =
   /\b(sexual|sex offender|rape|sodomy|molest|lewd|indecent|child.*(sex|porn|abuse|molest)|exploitation of a minor|solicit.*minor|aggravated sexual|criminal sexual|sex act|sex abuse)\b/i;

@@ -7,22 +7,33 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "serve": "node scripts/serve-study.mjs",
     "generate-faces": "node scripts/generate-faces.js",
+    "archive-pool": "node scripts/archive-pool.mjs",
     "fetch-mugshots": "node scripts/fetch-mugshots.mjs",
-    "enrich-gender": "node scripts/enrich-gender.mjs",
-    "audit-offenses": "node scripts/audit-offenses.mjs",
-    "fix-orientation": "node scripts/fix-orientation.mjs",
+    "fetch-sor": "node scripts/fetch-sor.mjs",
     "expand-pool": "node scripts/expand-pool.mjs",
-    "rebuild-trials": "node scripts/rebuild-trials.mjs"
+    "enrich-gender": "node scripts/enrich-gender.mjs",
+    "enrich-profile": "node scripts/enrich-profile.mjs",
+    "estimate-face-age": "node scripts/estimate-face-age.mjs",
+    "estimate-accepted-age": "node scripts/estimate-face-age.mjs --accepted",
+    "apply-age-matching": "node scripts/apply-age-matching.mjs",
+    "reclassify-offenses": "node scripts/reclassify-offenses.mjs",
+    "rebuild-trials": "node scripts/rebuild-trials.mjs",
+    "import-idoc": "node scripts/import-idoc.mjs",
+    "import-hf-idoc": "python scripts/import-hf-idoc.py && node scripts/finish-hf-idoc.mjs"
   },
   "dependencies": {
-    "@vladmandic/face-api": "^1.7.15",
+    "@supabase/supabase-js": "^2.109.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.22.0",
     "@vitejs/plugin-react": "^4.5.2",
-    "sharp": "^0.35.3",
+    "@vladmandic/human": "^3.3.6",
+    "sharp": "^0.35.5",
     "vite": "^6.3.5"
   }
 }

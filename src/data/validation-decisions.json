@@ -1,0 +1,3809 @@
+{
+  "updatedAt": "2026-09-30T04:06:18.358Z",
+  "decisions": {
+    "mug-0008.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:56:57.025Z"
+    },
+    "mug-0009.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:01.358Z"
+    },
+    "mug-0010.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:47.601Z"
+    },
+    "mug-0011.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:48.887Z"
+    },
+    "mug-0019.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:50.334Z"
+    },
+    "mug-0025.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:52.132Z"
+    },
+    "mug-0030.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:53.319Z"
+    },
+    "mug-0032.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:54.138Z"
+    },
+    "mug-0046.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:56.218Z"
+    },
+    "mug-0048.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:57:57.568Z"
+    },
+    "mug-0061.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:02.952Z"
+    },
+    "mug-0065.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:04.709Z"
+    },
+    "mug-0066.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:06.280Z"
+    },
+    "mug-0069.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:07.934Z"
+    },
+    "mug-0076.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:09.379Z"
+    },
+    "mug-0081.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:10.436Z"
+    },
+    "mug-0085.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:11.641Z"
+    },
+    "mug-0086.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:13.127Z"
+    },
+    "mug-0096.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:15.070Z"
+    },
+    "mug-0097.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:16.539Z"
+    },
+    "mug-0098.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:17.710Z"
+    },
+    "mug-0102.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:20.041Z"
+    },
+    "mug-0105.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:17.504Z"
+    },
+    "mug-0108.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:58:53.884Z"
+    },
+    "mug-0111.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:31.121Z"
+    },
+    "mug-0116.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:33.327Z"
+    },
+    "mug-0119.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:37.239Z"
+    },
+    "mug-0131.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:38.958Z"
+    },
+    "mug-0132.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:41.302Z"
+    },
+    "mug-0136.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:42.497Z"
+    },
+    "mug-0138.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:50.503Z"
+    },
+    "mug-0147.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T02:59:52.074Z"
+    },
+    "mug-0148.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:29.688Z"
+    },
+    "mug-0001.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:08.730Z"
+    },
+    "mug-0002.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:09.898Z"
+    },
+    "mug-0003.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:11.341Z"
+    },
+    "mug-0004.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:12.029Z"
+    },
+    "mug-0005.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:13.318Z"
+    },
+    "mug-0006.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:14.675Z"
+    },
+    "mug-0007.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:16.035Z"
+    },
+    "mug-0012.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:17.324Z"
+    },
+    "mug-0013.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:18.190Z"
+    },
+    "mug-0014.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:18.726Z"
+    },
+    "mug-0015.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:22.182Z"
+    },
+    "mug-0016.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:23.554Z"
+    },
+    "mug-0017.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:24.571Z"
+    },
+    "mug-0018.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:25.798Z"
+    },
+    "mug-0020.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:28.559Z"
+    },
+    "mug-0021.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:29.846Z"
+    },
+    "mug-0022.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:31.101Z"
+    },
+    "mug-0023.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:40.956Z"
+    },
+    "mug-0024.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:42.696Z"
+    },
+    "mug-0026.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:43.958Z"
+    },
+    "mug-0027.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:45.064Z"
+    },
+    "mug-0028.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:46.003Z"
+    },
+    "mug-0029.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:47.384Z"
+    },
+    "mug-0031.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:48.503Z"
+    },
+    "mug-0033.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:49.810Z"
+    },
+    "mug-0034.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:00:51.724Z"
+    },
+    "mug-0035.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:15.007Z"
+    },
+    "mug-0036.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:16.406Z"
+    },
+    "mug-0037.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:19.005Z"
+    },
+    "mug-0038.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:20.311Z"
+    },
+    "mug-0039.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:21.164Z"
+    },
+    "mug-0040.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:21.953Z"
+    },
+    "mug-0041.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:22.667Z"
+    },
+    "mug-0042.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:23.498Z"
+    },
+    "mug-0043.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:24.485Z"
+    },
+    "mug-0044.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:26.286Z"
+    },
+    "mug-0045.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:27.673Z"
+    },
+    "mug-0047.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:28.630Z"
+    },
+    "mug-0049.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:29.420Z"
+    },
+    "mug-0050.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:30.186Z"
+    },
+    "mug-0051.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:31.039Z"
+    },
+    "mug-0052.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:32.098Z"
+    },
+    "mug-0053.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:33.040Z"
+    },
+    "mug-0054.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:34.166Z"
+    },
+    "mug-0055.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:35.694Z"
+    },
+    "mug-0056.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:36.735Z"
+    },
+    "mug-0057.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:38.059Z"
+    },
+    "mug-0058.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:38.805Z"
+    },
+    "mug-0059.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:41.604Z"
+    },
+    "mug-0060.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:42.483Z"
+    },
+    "mug-0062.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:43.475Z"
+    },
+    "mug-0063.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:44.435Z"
+    },
+    "mug-0064.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:45.624Z"
+    },
+    "mug-0067.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:46.773Z"
+    },
+    "mug-0068.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:47.347Z"
+    },
+    "mug-0070.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:48.132Z"
+    },
+    "mug-0071.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:49.016Z"
+    },
+    "mug-0072.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:52.190Z"
+    },
+    "mug-0073.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:53.393Z"
+    },
+    "mug-0074.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:54.815Z"
+    },
+    "mug-0075.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:55.603Z"
+    },
+    "mug-0077.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:56.222Z"
+    },
+    "mug-0078.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:57.121Z"
+    },
+    "mug-0079.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:01:59.654Z"
+    },
+    "mug-0080.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:33.681Z"
+    },
+    "mug-0082.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:35.201Z"
+    },
+    "mug-0083.jpg": {
+      "status": "rejected",
+      "rotation": 270,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:40.010Z"
+    },
+    "mug-0084.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:46.938Z"
+    },
+    "mug-0087.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:48.899Z"
+    },
+    "mug-0088.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:51.436Z"
+    },
+    "mug-0089.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:52.978Z"
+    },
+    "mug-0090.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:54.028Z"
+    },
+    "mug-0091.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:55.865Z"
+    },
+    "mug-0092.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:57.356Z"
+    },
+    "mug-0093.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:03:58.231Z"
+    },
+    "mug-0094.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:04:00.580Z"
+    },
+    "mug-0095.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:04:01.475Z"
+    },
+    "mug-0099.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:04:02.922Z"
+    },
+    "mug-0100.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:04:04.128Z"
+    },
+    "mug-0101.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:04:27.854Z"
+    },
+    "mug-0103.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:04:30.285Z"
+    },
+    "mug-0104.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:04:37.471Z"
+    },
+    "mug-0106.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:23.370Z"
+    },
+    "mug-0107.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:26.764Z"
+    },
+    "mug-0109.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:28.675Z"
+    },
+    "mug-0110.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:29.699Z"
+    },
+    "mug-0112.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:30.650Z"
+    },
+    "mug-0113.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:51.797Z"
+    },
+    "mug-0114.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:53.548Z"
+    },
+    "mug-0115.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:54.341Z"
+    },
+    "mug-0117.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:55.597Z"
+    },
+    "mug-0118.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:57.339Z"
+    },
+    "mug-0120.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:58.512Z"
+    },
+    "mug-0121.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:06:59.259Z"
+    },
+    "mug-0122.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:00.582Z"
+    },
+    "mug-0123.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:02.027Z"
+    },
+    "mug-0124.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:03.184Z"
+    },
+    "mug-0125.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:04.243Z"
+    },
+    "mug-0126.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:05.672Z"
+    },
+    "mug-0127.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:06.898Z"
+    },
+    "mug-0128.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:08.035Z"
+    },
+    "mug-0129.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:09.196Z"
+    },
+    "mug-0130.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:10.098Z"
+    },
+    "mug-0133.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:11.284Z"
+    },
+    "mug-0134.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:14.910Z"
+    },
+    "mug-0135.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:16.121Z"
+    },
+    "mug-0137.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:17.723Z"
+    },
+    "mug-0139.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:18.825Z"
+    },
+    "mug-0140.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:19.737Z"
+    },
+    "mug-0141.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:20.843Z"
+    },
+    "mug-0142.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:21.748Z"
+    },
+    "mug-0143.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:24.026Z"
+    },
+    "mug-0144.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:25.758Z"
+    },
+    "mug-0145.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:26.755Z"
+    },
+    "mug-0146.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:28.134Z"
+    },
+    "mug-0149.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:30.555Z"
+    },
+    "mug-0150.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:45.968Z"
+    },
+    "mug-0248.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:07:55.615Z"
+    },
+    "mug-0253.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:15.522Z"
+    },
+    "mug-0260.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:29.395Z"
+    },
+    "mug-0263.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:30.423Z"
+    },
+    "mug-0265.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:31.738Z"
+    },
+    "mug-0266.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:32.370Z"
+    },
+    "mug-0270.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:34.390Z"
+    },
+    "mug-0273.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:36.641Z"
+    },
+    "mug-0274.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:37.340Z"
+    },
+    "mug-0280.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:42.837Z"
+    },
+    "mug-0283.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:44.242Z"
+    },
+    "mug-0286.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:45.197Z"
+    },
+    "mug-0289.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:46.220Z"
+    },
+    "mug-0291.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:48.071Z"
+    },
+    "mug-0296.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:21.699Z"
+    },
+    "mug-0297.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:22.632Z"
+    },
+    "mug-0301.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:24.925Z"
+    },
+    "mug-0302.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:25.692Z"
+    },
+    "mug-0304.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:29.076Z"
+    },
+    "mug-0305.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:30.174Z"
+    },
+    "mug-0306.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:34.158Z"
+    },
+    "mug-0284.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:44.751Z"
+    },
+    "mug-0288.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:45.659Z"
+    },
+    "mug-0290.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:46.764Z"
+    },
+    "mug-0292.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:48.511Z"
+    },
+    "mug-0293.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:49.100Z"
+    },
+    "mug-0294.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:52.150Z"
+    },
+    "mug-0295.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:20.889Z"
+    },
+    "mug-0299.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:23.519Z"
+    },
+    "mug-0303.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:28.169Z"
+    },
+    "mug-0307.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:36.028Z"
+    },
+    "mug-0247.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:14:53.081Z"
+    },
+    "mug-0249.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:06.726Z"
+    },
+    "mug-0250.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:09.681Z"
+    },
+    "mug-0251.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:11.449Z"
+    },
+    "mug-0252.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:13.884Z"
+    },
+    "mug-0254.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:26.986Z"
+    },
+    "mug-0256.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:27.728Z"
+    },
+    "mug-0259.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:28.839Z"
+    },
+    "mug-0262.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:29.834Z"
+    },
+    "mug-0264.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:31.068Z"
+    },
+    "mug-0267.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:33.113Z"
+    },
+    "mug-0269.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:33.663Z"
+    },
+    "mug-0271.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:35.032Z"
+    },
+    "mug-0272.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:35.637Z"
+    },
+    "mug-0275.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:38.361Z"
+    },
+    "mug-0276.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:39.177Z"
+    },
+    "mug-0277.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:39.922Z"
+    },
+    "mug-0278.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:40.503Z"
+    },
+    "mug-0279.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:41.206Z"
+    },
+    "mug-0282.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:15:43.772Z"
+    },
+    "mug-0255.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:17:34.408Z"
+    },
+    "mug-0257.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:16:17.167Z"
+    },
+    "mug-0258.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:17:35.051Z"
+    },
+    "mug-0261.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:17:21.652Z"
+    },
+    "mug-0268.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:17:35.816Z"
+    },
+    "mug-0281.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:17:40.978Z"
+    },
+    "mug-0285.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:17:47.238Z"
+    },
+    "mug-0287.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:17:58.264Z"
+    },
+    "mug-0298.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:18:03.960Z"
+    },
+    "mug-0300.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:18:35.561Z"
+    },
+    "mug-0151.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:18:45.325Z"
+    },
+    "mug-0152.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:18:52.305Z"
+    },
+    "mug-0153.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:18:53.874Z"
+    },
+    "mug-0154.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:18:57.109Z"
+    },
+    "mug-0155.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:18:58.968Z"
+    },
+    "mug-0156.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:00.531Z"
+    },
+    "mug-0157.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:02.532Z"
+    },
+    "mug-0158.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:04.042Z"
+    },
+    "mug-0162.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:05.189Z"
+    },
+    "mug-0163.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:06.143Z"
+    },
+    "mug-0164.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:06.830Z"
+    },
+    "mug-0165.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:16.786Z"
+    },
+    "mug-0168.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:28.558Z"
+    },
+    "mug-0169.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:29.513Z"
+    },
+    "mug-0172.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:46.146Z"
+    },
+    "mug-0174.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:49.941Z"
+    },
+    "mug-0175.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:52.558Z"
+    },
+    "mug-0176.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:53.942Z"
+    },
+    "mug-0177.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:54.988Z"
+    },
+    "mug-0179.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:56.321Z"
+    },
+    "mug-0180.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:58.943Z"
+    },
+    "mug-0182.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:19:59.663Z"
+    },
+    "mug-0184.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:06.367Z"
+    },
+    "mug-0186.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:07.041Z"
+    },
+    "mug-0187.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:10.365Z"
+    },
+    "mug-0188.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:11.037Z"
+    },
+    "mug-0189.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:14.061Z"
+    },
+    "mug-0190.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:15.197Z"
+    },
+    "mug-0191.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:17.523Z"
+    },
+    "mug-0193.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:18.640Z"
+    },
+    "mug-0196.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:19.757Z"
+    },
+    "mug-0197.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:20.497Z"
+    },
+    "mug-0198.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:21.551Z"
+    },
+    "mug-0199.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:23.082Z"
+    },
+    "mug-0200.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:24.625Z"
+    },
+    "mug-0202.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:25.456Z"
+    },
+    "mug-0203.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:26.293Z"
+    },
+    "mug-0204.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:27.162Z"
+    },
+    "mug-0205.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:29.129Z"
+    },
+    "mug-0207.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:29.861Z"
+    },
+    "mug-0208.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:31.754Z"
+    },
+    "mug-0210.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:32.491Z"
+    },
+    "mug-0211.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:33.424Z"
+    },
+    "mug-0212.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:34.290Z"
+    },
+    "mug-0213.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:35.266Z"
+    },
+    "mug-0214.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:36.510Z"
+    },
+    "mug-0216.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:37.871Z"
+    },
+    "mug-0217.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:38.983Z"
+    },
+    "mug-0218.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:40.076Z"
+    },
+    "mug-0220.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:41.017Z"
+    },
+    "mug-0224.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:47.639Z"
+    },
+    "mug-0226.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:49.210Z"
+    },
+    "mug-0229.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:53.476Z"
+    },
+    "mug-0230.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:56.129Z"
+    },
+    "mug-0231.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:58.355Z"
+    },
+    "mug-0232.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:20:59.169Z"
+    },
+    "mug-0233.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:00.686Z"
+    },
+    "mug-0234.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:02.474Z"
+    },
+    "mug-0235.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:03.134Z"
+    },
+    "mug-0237.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:04.930Z"
+    },
+    "mug-0238.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:07.626Z"
+    },
+    "mug-0239.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:08.295Z"
+    },
+    "mug-0241.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:10.311Z"
+    },
+    "mug-0244.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:11.563Z"
+    },
+    "mug-0246.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:12.948Z"
+    },
+    "mug-0159.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:29.253Z"
+    },
+    "mug-0160.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:30.107Z"
+    },
+    "mug-0161.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:32.168Z"
+    },
+    "mug-0166.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:33.391Z"
+    },
+    "mug-0167.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:34.666Z"
+    },
+    "mug-0170.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:35.790Z"
+    },
+    "mug-0171.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:39.448Z"
+    },
+    "mug-0173.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:49.073Z"
+    },
+    "mug-0178.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:50.664Z"
+    },
+    "mug-0181.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:51.939Z"
+    },
+    "mug-0183.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:53.624Z"
+    },
+    "mug-0185.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:55.118Z"
+    },
+    "mug-0192.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:56.614Z"
+    },
+    "mug-0194.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:57.650Z"
+    },
+    "mug-0195.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:58.763Z"
+    },
+    "mug-0201.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:21:59.207Z"
+    },
+    "mug-0206.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:00.596Z"
+    },
+    "mug-0209.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:02.021Z"
+    },
+    "mug-0215.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:02.801Z"
+    },
+    "mug-0219.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:03.614Z"
+    },
+    "mug-0221.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:04.541Z"
+    },
+    "mug-0222.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:05.905Z"
+    },
+    "mug-0223.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:06.695Z"
+    },
+    "mug-0225.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:07.393Z"
+    },
+    "mug-0227.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:09.702Z"
+    },
+    "mug-0228.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:11.027Z"
+    },
+    "mug-0236.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:11.847Z"
+    },
+    "mug-0240.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:13.040Z"
+    },
+    "mug-0242.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:13.778Z"
+    },
+    "mug-0243.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:14.507Z"
+    },
+    "mug-0245.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:22:15.301Z"
+    },
+    "mug-0400.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:23:31.031Z"
+    },
+    "mug-0402.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:23:55.555Z"
+    },
+    "mug-0407.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:23:56.677Z"
+    },
+    "mug-0409.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:23:57.895Z"
+    },
+    "mug-0411.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:23:58.746Z"
+    },
+    "mug-0412.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:23:59.644Z"
+    },
+    "mug-0414.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:00.755Z"
+    },
+    "mug-0416.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:05.072Z"
+    },
+    "mug-0417.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:06.656Z"
+    },
+    "mug-0420.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:07.757Z"
+    },
+    "mug-0422.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:08.872Z"
+    },
+    "mug-0425.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:09.830Z"
+    },
+    "mug-0431.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:12.678Z"
+    },
+    "mug-0438.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:14.296Z"
+    },
+    "mug-0439.jpg": {
+      "status": "rejected",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:17.074Z"
+    },
+    "mug-0444.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:18.668Z"
+    },
+    "mug-0453.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:21.848Z"
+    },
+    "mug-0454.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:24.036Z"
+    },
+    "mug-0465.jpg": {
+      "status": "rejected",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:25.787Z"
+    },
+    "mug-0468.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:26.903Z"
+    },
+    "mug-0471.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:29.176Z"
+    },
+    "mug-0489.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:30.581Z"
+    },
+    "mug-0491.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:31.588Z"
+    },
+    "mug-0496.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:33.354Z"
+    },
+    "mug-0503.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:39.343Z"
+    },
+    "mug-0508.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:41.756Z"
+    },
+    "mug-0512.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:45.606Z"
+    },
+    "mug-0513.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:48.557Z"
+    },
+    "mug-0514.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:50.071Z"
+    },
+    "mug-0515.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:52.146Z"
+    },
+    "mug-0524.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:53.575Z"
+    },
+    "mug-0526.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:24:54.953Z"
+    },
+    "mug-0530.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:01.076Z"
+    },
+    "mug-0534.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:02.480Z"
+    },
+    "mug-0543.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:04.538Z"
+    },
+    "mug-0399.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:25.966Z"
+    },
+    "mug-0401.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:26.973Z"
+    },
+    "mug-0403.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:27.964Z"
+    },
+    "mug-0404.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:29.533Z"
+    },
+    "mug-0405.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:30.582Z"
+    },
+    "mug-0406.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:32.057Z"
+    },
+    "mug-0408.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:32.888Z"
+    },
+    "mug-0410.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:34.846Z"
+    },
+    "mug-0413.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:35.669Z"
+    },
+    "mug-0415.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:36.449Z"
+    },
+    "mug-0418.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:38.411Z"
+    },
+    "mug-0419.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:39.282Z"
+    },
+    "mug-0421.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:39.899Z"
+    },
+    "mug-0423.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:40.873Z"
+    },
+    "mug-0424.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:41.743Z"
+    },
+    "mug-0426.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:43.483Z"
+    },
+    "mug-0427.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:44.561Z"
+    },
+    "mug-0428.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:45.626Z"
+    },
+    "mug-0429.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:46.384Z"
+    },
+    "mug-0430.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:48.624Z"
+    },
+    "mug-0432.jpg": {
+      "status": "rejected",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:49.845Z"
+    },
+    "mug-0433.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:50.712Z"
+    },
+    "mug-0434.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:51.755Z"
+    },
+    "mug-0435.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:52.433Z"
+    },
+    "mug-0436.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:52.937Z"
+    },
+    "mug-0437.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:53.693Z"
+    },
+    "mug-0440.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:54.581Z"
+    },
+    "mug-0441.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:55.338Z"
+    },
+    "mug-0442.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:25:57.781Z"
+    },
+    "mug-0443.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:00.981Z"
+    },
+    "mug-0445.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:01.969Z"
+    },
+    "mug-0446.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:02.924Z"
+    },
+    "mug-0447.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:04.196Z"
+    },
+    "mug-0448.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:05.251Z"
+    },
+    "mug-0449.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:06.195Z"
+    },
+    "mug-0450.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:07.383Z"
+    },
+    "mug-0451.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:08.456Z"
+    },
+    "mug-0452.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:09.377Z"
+    },
+    "mug-0455.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:10.204Z"
+    },
+    "mug-0456.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:11.027Z"
+    },
+    "mug-0457.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:11.808Z"
+    },
+    "mug-0458.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:12.426Z"
+    },
+    "mug-0459.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:13.064Z"
+    },
+    "mug-0460.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:14.259Z"
+    },
+    "mug-0461.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:14.961Z"
+    },
+    "mug-0462.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:15.892Z"
+    },
+    "mug-0463.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:16.627Z"
+    },
+    "mug-0464.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:18.942Z"
+    },
+    "mug-0466.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:19.663Z"
+    },
+    "mug-0467.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:20.639Z"
+    },
+    "mug-0469.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:21.455Z"
+    },
+    "mug-0470.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:22.131Z"
+    },
+    "mug-0472.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:22.693Z"
+    },
+    "mug-0473.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:23.390Z"
+    },
+    "mug-0474.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:24.451Z"
+    },
+    "mug-0475.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:25.155Z"
+    },
+    "mug-0476.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:25.829Z"
+    },
+    "mug-0477.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:27.153Z"
+    },
+    "mug-0478.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:27.897Z"
+    },
+    "mug-0479.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:28.543Z"
+    },
+    "mug-0480.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:29.066Z"
+    },
+    "mug-0481.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:29.690Z"
+    },
+    "mug-0482.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:30.153Z"
+    },
+    "mug-0483.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:30.704Z"
+    },
+    "mug-0484.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:31.660Z"
+    },
+    "mug-0485.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:32.373Z"
+    },
+    "mug-0486.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:33.261Z"
+    },
+    "mug-0487.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:34.093Z"
+    },
+    "mug-0488.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:34.776Z"
+    },
+    "mug-0490.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:36.094Z"
+    },
+    "mug-0492.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:36.855Z"
+    },
+    "mug-0493.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:37.746Z"
+    },
+    "mug-0494.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:38.283Z"
+    },
+    "mug-0495.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:38.764Z"
+    },
+    "mug-0497.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:39.461Z"
+    },
+    "mug-0498.jpg": {
+      "status": "rejected",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:40.700Z"
+    },
+    "mug-0499.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:41.652Z"
+    },
+    "mug-0500.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:42.341Z"
+    },
+    "mug-0501.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:42.838Z"
+    },
+    "mug-0502.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:43.270Z"
+    },
+    "mug-0504.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:43.962Z"
+    },
+    "mug-0505.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:44.517Z"
+    },
+    "mug-0506.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:44.966Z"
+    },
+    "mug-0507.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:45.753Z"
+    },
+    "mug-0509.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:46.632Z"
+    },
+    "mug-0510.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:47.182Z"
+    },
+    "mug-0511.jpg": {
+      "status": "rejected",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:48.199Z"
+    },
+    "mug-0516.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:49.191Z"
+    },
+    "mug-0517.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:50.427Z"
+    },
+    "mug-0518.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:51.323Z"
+    },
+    "mug-0519.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:51.888Z"
+    },
+    "mug-0520.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:53.767Z"
+    },
+    "mug-0521.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:54.432Z"
+    },
+    "mug-0522.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:55.179Z"
+    },
+    "mug-0523.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:55.770Z"
+    },
+    "mug-0525.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:56.303Z"
+    },
+    "mug-0527.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:56.800Z"
+    },
+    "mug-0528.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:57.277Z"
+    },
+    "mug-0529.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:58.099Z"
+    },
+    "mug-0531.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:26:58.670Z"
+    },
+    "mug-0532.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:18.128Z"
+    },
+    "mug-0533.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:18.751Z"
+    },
+    "mug-0535.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:19.225Z"
+    },
+    "mug-0536.jpg": {
+      "status": "accepted",
+      "rotation": 90,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:21.174Z"
+    },
+    "mug-0537.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:21.875Z"
+    },
+    "mug-0538.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:23.040Z"
+    },
+    "mug-0539.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:23.754Z"
+    },
+    "mug-0540.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:24.539Z"
+    },
+    "mug-0541.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:25.259Z"
+    },
+    "mug-0542.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:27:26.574Z"
+    },
+    "mug-0647.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:52.743Z"
+    },
+    "mug-0650.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:56.749Z"
+    },
+    "mug-0651.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:28:55.281Z"
+    },
+    "mug-0652.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:28:56.442Z"
+    },
+    "mug-0654.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:28:57.289Z"
+    },
+    "mug-0657.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:28:58.328Z"
+    },
+    "mug-0659.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:28:59.214Z"
+    },
+    "mug-0660.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:00.155Z"
+    },
+    "mug-0661.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:02.397Z"
+    },
+    "mug-0662.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:03.657Z"
+    },
+    "mug-0663.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:04.830Z"
+    },
+    "mug-0666.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:05.307Z"
+    },
+    "mug-0649.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:22.638Z"
+    },
+    "mug-0655.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:28.986Z"
+    },
+    "mug-0656.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:30.555Z"
+    },
+    "mug-0658.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:41.237Z"
+    },
+    "mug-0646.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:48.817Z"
+    },
+    "mug-0648.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:29:53.694Z"
+    },
+    "mug-0653.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:30:07.713Z"
+    },
+    "mug-0664.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:30:11.672Z"
+    },
+    "mug-0665.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:30:12.490Z"
+    },
+    "mug-0583.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:10.843Z"
+    },
+    "mug-0584.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:11.388Z"
+    },
+    "mug-0585.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:12.045Z"
+    },
+    "mug-0586.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:12.372Z"
+    },
+    "mug-0587.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:12.517Z"
+    },
+    "mug-0588.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:12.668Z"
+    },
+    "mug-0589.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:12.814Z"
+    },
+    "mug-0590.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:12.961Z"
+    },
+    "mug-0591.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:13.512Z"
+    },
+    "mug-0592.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:13.872Z"
+    },
+    "mug-0593.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:16.430Z"
+    },
+    "mug-0594.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:17.234Z"
+    },
+    "mug-0595.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:17.837Z"
+    },
+    "mug-0596.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:19.255Z"
+    },
+    "mug-0597.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:20.270Z"
+    },
+    "mug-0598.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:20.950Z"
+    },
+    "mug-0599.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:21.358Z"
+    },
+    "mug-0600.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:21.721Z"
+    },
+    "mug-0601.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:22.091Z"
+    },
+    "mug-0602.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:24.648Z"
+    },
+    "mug-0603.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:25.157Z"
+    },
+    "mug-0604.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:25.586Z"
+    },
+    "mug-0605.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:25.918Z"
+    },
+    "mug-0606.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:26.282Z"
+    },
+    "mug-0607.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:26.630Z"
+    },
+    "mug-0608.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:26.935Z"
+    },
+    "mug-0609.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:27.137Z"
+    },
+    "mug-0610.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:27.869Z"
+    },
+    "mug-0611.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:28.264Z"
+    },
+    "mug-0612.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:28.596Z"
+    },
+    "mug-0613.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:28.983Z"
+    },
+    "mug-0614.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T03:42:29.318Z"
+    },
+    "mug-0922.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:05.167Z"
+    },
+    "mug-0936.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:08.603Z"
+    },
+    "mug-0939.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:09.176Z"
+    },
+    "mug-0942.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:09.661Z"
+    },
+    "mug-0951.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:10.022Z"
+    },
+    "mug-0955.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:11.934Z"
+    },
+    "mug-0959.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:12.173Z"
+    },
+    "mug-0961.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:12.331Z"
+    },
+    "mug-0969.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:12.501Z"
+    },
+    "mug-0973.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:12.675Z"
+    },
+    "mug-0978.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:12.849Z"
+    },
+    "mug-0993.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:13.017Z"
+    },
+    "mug-0995.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:13.166Z"
+    },
+    "mug-1001.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:17.775Z"
+    },
+    "mug-1002.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:18.383Z"
+    },
+    "mug-1003.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:18.685Z"
+    },
+    "mug-0897.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:57.759Z"
+    },
+    "mug-0902.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:00:58.895Z"
+    },
+    "mug-0912.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:00.401Z"
+    },
+    "mug-0915.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:01.684Z"
+    },
+    "mug-0920.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:03.896Z"
+    },
+    "mug-0889.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:22.948Z"
+    },
+    "mug-0890.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:25.146Z"
+    },
+    "mug-0892.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:33.672Z"
+    },
+    "mug-0893.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:39.961Z"
+    },
+    "mug-0894.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:44.058Z"
+    },
+    "mug-0896.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:56.035Z"
+    },
+    "mug-0898.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:01:59.876Z"
+    },
+    "mug-0899.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:02.192Z"
+    },
+    "mug-0900.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:04.937Z"
+    },
+    "mug-0901.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:07.069Z"
+    },
+    "mug-0903.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:08.269Z"
+    },
+    "mug-0904.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:16.286Z"
+    },
+    "mug-0905.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:20.514Z"
+    },
+    "mug-0906.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:21.562Z"
+    },
+    "mug-0908.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:26.622Z"
+    },
+    "mug-0909.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:33.048Z"
+    },
+    "mug-0910.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:35.464Z"
+    },
+    "mug-0911.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:39.259Z"
+    },
+    "mug-0913.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:43.845Z"
+    },
+    "mug-0914.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:47.299Z"
+    },
+    "mug-0916.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:49.202Z"
+    },
+    "mug-0917.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:50.712Z"
+    },
+    "mug-0918.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:54.160Z"
+    },
+    "mug-0919.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:02:56.274Z"
+    },
+    "mug-0921.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:03:01.804Z"
+    },
+    "mug-0887.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:03:16.440Z"
+    },
+    "mug-0888.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:03:19.579Z"
+    },
+    "mug-0891.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:03:20.375Z"
+    },
+    "mug-0895.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:03:29.995Z"
+    },
+    "mug-0907.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:03:35.239Z"
+    },
+    "mug-0738.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:05.251Z"
+    },
+    "mug-0740.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:06.055Z"
+    },
+    "mug-0741.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:06.739Z"
+    },
+    "mug-0742.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:07.872Z"
+    },
+    "mug-0743.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:08.799Z"
+    },
+    "mug-0744.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:09.657Z"
+    },
+    "mug-0750.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:10.428Z"
+    },
+    "mug-0751.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:11.201Z"
+    },
+    "mug-0753.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:13.606Z"
+    },
+    "mug-0756.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:14.708Z"
+    },
+    "mug-0757.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:15.681Z"
+    },
+    "mug-0758.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:16.670Z"
+    },
+    "mug-0762.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:17.371Z"
+    },
+    "mug-0764.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:18.394Z"
+    },
+    "mug-0768.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:19.212Z"
+    },
+    "mug-0771.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:21.228Z"
+    },
+    "mug-0772.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:22.919Z"
+    },
+    "mug-0774.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:24.143Z"
+    },
+    "mug-0776.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:24.955Z"
+    },
+    "mug-0777.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:25.677Z"
+    },
+    "mug-0780.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:26.296Z"
+    },
+    "mug-0781.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:27.037Z"
+    },
+    "mug-0784.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:27.649Z"
+    },
+    "mug-0787.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:28.352Z"
+    },
+    "mug-0789.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:29.121Z"
+    },
+    "mug-0794.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:29.723Z"
+    },
+    "mug-0795.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:30.415Z"
+    },
+    "mug-0801.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:30.983Z"
+    },
+    "mug-0803.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:31.469Z"
+    },
+    "mug-0807.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:31.987Z"
+    },
+    "mug-0809.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:32.487Z"
+    },
+    "mug-0810.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:33.370Z"
+    },
+    "mug-0739.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:40.175Z"
+    },
+    "mug-0745.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:40.929Z"
+    },
+    "mug-0746.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:41.967Z"
+    },
+    "mug-0747.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:43.080Z"
+    },
+    "mug-0748.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:44.179Z"
+    },
+    "mug-0749.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:44.885Z"
+    },
+    "mug-0752.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:45.579Z"
+    },
+    "mug-0754.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:46.435Z"
+    },
+    "mug-0755.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:47.047Z"
+    },
+    "mug-0759.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:47.791Z"
+    },
+    "mug-0760.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:48.561Z"
+    },
+    "mug-0761.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:04:50.605Z"
+    },
+    "mug-0763.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:02.111Z"
+    },
+    "mug-0765.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:03.299Z"
+    },
+    "mug-0766.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:04.026Z"
+    },
+    "mug-0767.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:04.589Z"
+    },
+    "mug-0769.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:05.415Z"
+    },
+    "mug-0770.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:06.118Z"
+    },
+    "mug-0773.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:06.886Z"
+    },
+    "mug-0775.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:07.512Z"
+    },
+    "mug-0778.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:08.496Z"
+    },
+    "mug-0779.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:09.364Z"
+    },
+    "mug-0782.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:10.079Z"
+    },
+    "mug-0783.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:10.594Z"
+    },
+    "mug-0785.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:11.408Z"
+    },
+    "mug-0788.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:16.842Z"
+    },
+    "mug-0790.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:17.544Z"
+    },
+    "mug-0791.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:18.228Z"
+    },
+    "mug-0792.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:19.066Z"
+    },
+    "mug-0793.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:19.748Z"
+    },
+    "mug-0796.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:20.520Z"
+    },
+    "mug-0797.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:21.190Z"
+    },
+    "mug-0798.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:21.938Z"
+    },
+    "mug-0799.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:22.690Z"
+    },
+    "mug-0800.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:23.381Z"
+    },
+    "mug-0802.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:32.809Z"
+    },
+    "mug-0804.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:33.589Z"
+    },
+    "mug-0806.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:37.343Z"
+    },
+    "mug-0808.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:38.234Z"
+    },
+    "mug-0811.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:39.532Z"
+    },
+    "mug-0812.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:40.375Z"
+    },
+    "mug-0813.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:42.159Z"
+    },
+    "mug-0786.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:49.840Z"
+    },
+    "mug-0805.jpg": {
+      "status": "accepted",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:05:51.218Z"
+    },
+    "mug-0669.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:06:18.358Z"
+    },
+    "mug-0670.jpg": {
+      "status": "rejected",
+      "rotation": 0,
+      "note": "",
+      "reviewedAt": "2026-09-30T04:06:10.275Z"
+    }
+  }
+}

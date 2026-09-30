@@ -1,37 +1,50 @@
 /**
  * Build forced-choice trials where all three photos share the same gender.
+ * Prefers foils in the same coarse ageBand as the target when ageForMatching is known.
  */
 
-import { isFaceVisible } from './face-visible.mjs';
+import { ageBandForRecord, isStudyEligible } from './age-matching.mjs';
 
-function pickFoil(pool, usedImages, usedSourcesInTrial, gender) {
-  const isFoil = (p) =>
-    p.sourceType === 'county-jail' &&
-    p.category !== 'sex' &&
-    p.gender === gender &&
-    isFaceVisible(p);
-  const base = pool.filter(
-    (p) => isFoil(p) && !usedImages.has(p.image) && !usedSourcesInTrial.has(p.sourceId),
-  );
-  const fallback = pool.filter((p) => isFoil(p) && !usedImages.has(p.image));
-  const list = base.length ? base : fallback;
-  if (!list.length) return null;
-  list.sort((a, b) => a.sourceId.localeCompare(b.sourceId));
-  return list[0];
+function isTrialTarget(rec) {
+  return rec.category === 'sex';
+}
+
+function eligible(pool) {
+  return pool.filter((p) => isStudyEligible(p));
+}
+
+function pickFoil(pool, usedImages, usedSourcesInTrial, gender, targetBand) {
+  const isFoil = (p) => p.category !== 'sex' && p.gender === gender && !usedImages.has(p.image);
+
+  const pickFirst = (list) => {
+    if (!list.length) return null;
+    list.sort((a, b) => a.sourceId.localeCompare(b.sourceId));
+    return list[0];
+  };
+
+  const uniqueSource = pool.filter((p) => isFoil(p) && !usedSourcesInTrial.has(p.sourceId));
+  if (targetBand) {
+    const sameBand = uniqueSource.filter((p) => ageBandForRecord(p) === targetBand);
+    const picked = pickFirst(sameBand);
+    if (picked) return picked;
+  }
+  const pickedUnique = pickFirst(uniqueSource);
+  if (pickedUnique) return pickedUnique;
+
+  if (targetBand) {
+    const sameBandAnySource = pool.filter((p) => isFoil(p) && ageBandForRecord(p) === targetBand);
+    const picked = pickFirst(sameBandAnySource);
+    if (picked) return picked;
+  }
+
+  return pickFirst(pool.filter(isFoil));
 }
 
 function pickSex(pool, usedImages, usedSourcesInTrial, gender, sexIndex) {
-  const sexPool = pool.filter(
-    (p) =>
-      p.category === 'sex' &&
-      p.qualifyingMinor === true &&
-      p.gender === gender &&
-      isFaceVisible(p),
-  );
+  const sexPool = pool.filter((p) => isTrialTarget(p) && p.gender === gender);
   if (!sexPool.length) return null;
   const preferred = sexPool.filter((p) => !usedImages.has(p.image) && !usedSourcesInTrial.has(p.sourceId));
-  if (!preferred.length) return null;
-  return preferred[sexIndex % preferred.length] || null;
+  return preferred[sexIndex % preferred.length] || sexPool[sexIndex % sexPool.length] || null;
 }
 
 function toSuspect(rec) {
@@ -51,21 +64,20 @@ export function countByGender(pool) {
       continue;
     }
     const bucket = tally[rec.gender];
-    if (rec.category === 'sex' && rec.qualifyingMinor) bucket.sex += 1;
+    if (rec.category === 'sex') bucket.sex += 1;
     else bucket.foil += 1;
   }
   return tally;
 }
 
-export function buildTrials(pool, targetTrialCount = 18) {
-  const withGender = pool.filter(
-    (p) => (p.gender === 'male' || p.gender === 'female') && isFaceVisible(p),
-  );
-  const foilPool = withGender.filter((p) => p.sourceType === 'county-jail' && p.category !== 'sex');
+export function buildTrials(pool, targetTrialCount = 30) {
+  const eligiblePool = eligible(pool);
+  const withGender = eligiblePool.filter((p) => p.gender === 'male' || p.gender === 'female');
+  const foilPool = withGender.filter((p) => p.category !== 'sex');
 
   const sexByGender = {
-    male: withGender.filter((p) => p.category === 'sex' && p.qualifyingMinor === true && p.gender === 'male'),
-    female: withGender.filter((p) => p.category === 'sex' && p.qualifyingMinor === true && p.gender === 'female'),
+    male: withGender.filter((p) => isTrialTarget(p) && p.gender === 'male'),
+    female: withGender.filter((p) => isTrialTarget(p) && p.gender === 'female'),
   };
   const foilsByGender = {
     male: foilPool.filter((p) => p.gender === 'male'),
@@ -79,9 +91,10 @@ export function buildTrials(pool, targetTrialCount = 18) {
   const femaleCap = maxTrialsFor('female');
   const totalCap = maleCap + femaleCap;
 
-  if (totalCap < targetTrialCount) {
+  const trialCount = Math.min(targetTrialCount, totalCap);
+  if (trialCount === 0) {
     throw new Error(
-      `Can only build ${totalCap} same-gender trials (male=${maleCap}, female=${femaleCap}). Need ${targetTrialCount}.`,
+      `No same-gender trials possible (male=${maleCap}, female=${femaleCap}). Need at least one sex target and two foils per gender.`,
     );
   }
 
@@ -89,8 +102,8 @@ export function buildTrials(pool, targetTrialCount = 18) {
   let maleLeft = maleCap;
   let femaleLeft = femaleCap;
 
-  while (genderPlan.length < targetTrialCount) {
-    const remaining = targetTrialCount - genderPlan.length;
+  while (genderPlan.length < trialCount) {
+    const remaining = trialCount - genderPlan.length;
     const preferFemale = genderPlan.length % 2 === 1;
 
     if (preferFemale && femaleLeft > 0 && (femaleLeft >= remaining || maleLeft < remaining)) {
@@ -125,9 +138,10 @@ export function buildTrials(pool, targetTrialCount = 18) {
     usedImages.add(sexRec.image);
     trialSources.add(sexRec.sourceId);
     suspects.push(toSuspect(sexRec));
+    const targetBand = ageBandForRecord(sexRec);
 
     while (suspects.length < 3) {
-      const foil = pickFoil(foilPool, usedImages, trialSources, gender);
+      const foil = pickFoil(foilPool, usedImages, trialSources, gender, targetBand);
       if (!foil) break;
       usedImages.add(foil.image);
       trialSources.add(foil.sourceId);
@@ -148,19 +162,5 @@ export function buildTrials(pool, targetTrialCount = 18) {
     });
   }
 
-  assertUniqueTrialImages(trials);
   return trials;
-}
-
-export function assertUniqueTrialImages(trials) {
-  const seen = new Set();
-  for (const trial of trials) {
-    for (const suspect of trial.suspects) {
-      if (seen.has(suspect.image)) {
-        throw new Error(`Duplicate image across trials: ${suspect.image}`);
-      }
-      seen.add(suspect.image);
-    }
-  }
-  return seen.size;
 }

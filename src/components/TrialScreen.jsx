@@ -12,7 +12,6 @@ export default function TrialScreen({
   choice,
   correct,
   feedback,
-  imageVersion,
   onSelect,
   onNext,
 }) {
@@ -22,13 +21,13 @@ export default function TrialScreen({
 
       <main className="trial-body">
         <p className="prompt">
-          Which person do you believe was convicted of a sex offense involving a minor?
+          Which person do you believe was convicted of a sex offense involving a child?
         </p>
 
         <div className="suspect-grid">
           {trial.suspects.map((suspect, i) => (
             <SuspectCard
-              key={`${trial.id}-${suspect.image}`}
+              key={`${trial.id}-${LABELS[i]}`}
               suspect={suspect}
               label={LABELS[i]}
               index={i}
@@ -36,7 +35,6 @@ export default function TrialScreen({
               choice={choice}
               correct={correct}
               targetIndex={trial.targetIndex}
-              imageVersion={imageVersion}
               onSelect={onSelect}
             />
           ))}

@@ -1,60 +1,43 @@
 import { useState } from 'react';
+import { isValidationAvailable } from '../utils/localHost.js';
 
-export default function ConsentScreen({ onStart, poolSize, remainingSessions }) {
+export default function ConsentScreen({ onStart }) {
   const [consented, setConsented] = useState(false);
+  const showValidation = isValidationAvailable();
 
   return (
     <section className="screen active">
       <div className="panel">
         <h1>Can appearance predict offense type?</h1>
         <p className="lead">
-          This short study tests whether people can identify someone convicted of a{' '}
-          <strong>sex offense involving a minor</strong> based only on a booking-style photo.
+          This short study tests whether people can tell a{' '}
+          <strong>child-victim sex offense</strong> from other sex offenses using registry photos only.
         </p>
 
         <div className="info-box">
           <h2>Before you begin</h2>
           <ul>
             <li>
-              You will see <strong>18 rounds</strong>. Each round shows <strong>three booking photos</strong> (A, B, C).
-            </li>
-            <li>All three individuals have <strong>criminal records</strong> drawn from public sheriff sources across several states (not one jail).</li>
-            <li>
-              Each round is <strong>all male or all female</strong> — the three photos always share the same sex, so gender is not a giveaway. (This pool currently runs all-male lineups; photos that fail a gender consistency check are excluded.)
+              You will see <strong>30 rounds</strong>. Each round shows <strong>three booking photos</strong> (A, B, C).
             </li>
             <li>
-              In every round, <strong>exactly one</strong> person has a qualifying sex offense. The other two committed different crimes.
+              Each session draws a <strong>new random set</strong> from photos already approved in validation. No photo is reused in the same session as a target or a foil. The three faces in a round are age-similar (official registry age if present, otherwise a model estimate).
+            </li>
+            <li>All three individuals are on a <strong>sex-offender registry</strong>.</li>
+            <li>
+              Each round is <strong>same-gender</strong> (currently all male) so gender is not a giveaway.
             </li>
             <li>
-              Pick the person you think committed the sex offense — <strong>A, B, or C only.</strong>
-            </li>
-            <li>Offense details are revealed <strong>only after</strong> you answer.</li>
-            <li>Photos are de-identified. No names or locations are shown. Faces must be visible — masked or obscured booking photos are excluded.</li>
-            <li>
-              Photos are pre-downloaded ({poolSize || '100+'}+ in the pool). Each full run uses{' '}
-              <strong>54 fresh faces</strong> with no repeats within that run. Restarting pulls a new random
-              set you have not seen yet (~{Math.max(remainingSessions, 0)} full replay
-              {remainingSessions === 1 ? '' : 's'} left on this device).
+              In every round, <strong>exactly one</strong> person has a qualifying child-victim sex offense. The other two are registered for other sex offenses (typically adult victims).
             </li>
             <li>
-              When you click Start, the app loads fresh photos and verifies each face is upright
-              (using face detection) before trials begin.
+              Pick the person you think committed the child-victim sex offense — <strong>A, B, or C only.</strong>
             </li>
+            <li>Photos are de-identified. No names or locations are shown.</li>
             <li>
-              Booking photos are also auto-corrected on the server when downloaded — upside-down
-              sheriff roster shots are flipped in place.
-            </li>
-            <li>
-              Estimated time: <strong>8–12 minutes</strong>.
+              Estimated time: <strong>12–18 minutes</strong>.
             </li>
           </ul>
-        </div>
-
-        <div className="info-box muted">
-          <h2>Fair test design</h2>
-          <p>
-            This version uses forced choice among three photos each round, same-gender lineups, no repeated faces within a run, fresh photos on replay, randomized order, and mugshots from multiple sheriff offices. Chance guessing is 33%.
-          </p>
         </div>
 
         <label className="checkbox-row">
@@ -69,6 +52,12 @@ export default function ConsentScreen({ onStart, poolSize, remainingSessions }) 
         <button type="button" className="btn primary" disabled={!consented} onClick={onStart}>
           Start study
         </button>
+
+        {showValidation ? (
+          <p className="validation-entry">
+            <a href="/validation">Validation</a>
+          </p>
+        ) : null}
       </div>
     </section>
   );

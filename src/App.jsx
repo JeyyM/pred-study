@@ -1,119 +1,109 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import poolData from './data/mugshot-pool.json';
 import ConsentScreen from './components/ConsentScreen';
-import SessionLoader from './components/SessionLoader';
 import TrialScreen from './components/TrialScreen';
 import ResultsScreen from './components/ResultsScreen';
 import {
+  buildSessionTrials,
   createInitialStats,
   getFeedback,
   scoreAnswer,
 } from './utils/study';
-import { prepareSession } from './utils/prepareSession';
 import {
-  estimateRemainingSessions,
-  markSessionSeen,
-} from './utils/sessionPool';
+  appendTrialResult,
+  buildCompletedPayload,
+  createSessionDraft,
+  isCompleteSession,
+  publishCompletedSession,
+} from './utils/sessionLog';
 
 const SCREENS = {
   CONSENT: 'consent',
-  PREPARE: 'prepare',
   TRIAL: 'trial',
   RESULTS: 'results',
 };
 
-const IMAGE_VERSION = poolData.orientationFixedAt
-  ? String(new Date(poolData.orientationFixedAt).getTime())
-  : poolData.expandedAt
-    ? String(new Date(poolData.expandedAt).getTime())
-    : '1';
+function beginSession() {
+  return {
+    order: buildSessionTrials(),
+    trialIndex: 0,
+    stats: createInitialStats(),
+    draft: createSessionDraft(),
+    answered: false,
+    choice: null,
+    lastCorrect: false,
+    feedback: '',
+  };
+}
 
 export default function App() {
   const [screen, setScreen] = useState(SCREENS.CONSENT);
-  const [session, setSession] = useState(null);
   const [order, setOrder] = useState([]);
   const [trialIndex, setTrialIndex] = useState(0);
   const [stats, setStats] = useState(createInitialStats);
+  const [draft, setDraft] = useState(null);
   const [answered, setAnswered] = useState(false);
   const [choice, setChoice] = useState(null);
   const [lastCorrect, setLastCorrect] = useState(false);
   const [feedback, setFeedback] = useState('');
-  const [prepareProgress, setPrepareProgress] = useState(null);
-  const [prepareError, setPrepareError] = useState(null);
-  const [remainingSessions, setRemainingSessions] = useState(() =>
-    estimateRemainingSessions(poolData.records),
-  );
-  const prepareAbortRef = useRef(null);
+  const [saveStatus, setSaveStatus] = useState('idle');
+  const trialShownAtRef = useRef(0);
+  const publishLockRef = useRef(false);
+  const latestRef = useRef({ draft: null, stats: null });
 
   const trial = order[trialIndex];
+  latestRef.current = { draft, stats };
 
-  useEffect(() => {
-    if (screen === SCREENS.RESULTS && session?.rawTrials) {
-      markSessionSeen(session.rawTrials);
-      setRemainingSessions(estimateRemainingSessions(poolData.records));
+  const applySession = useCallback((next) => {
+    setOrder(next.order);
+    setTrialIndex(next.trialIndex);
+    setStats(next.stats);
+    setDraft(next.draft);
+    setAnswered(next.answered);
+    setChoice(next.choice);
+    setLastCorrect(next.lastCorrect);
+    setFeedback(next.feedback);
+  }, []);
+
+  const publishDraft = useCallback(async (nextDraft, nextStats) => {
+    if (publishLockRef.current) return;
+    if (!isCompleteSession(nextDraft, nextStats)) return;
+
+    const payload = buildCompletedPayload(nextDraft, nextStats);
+    if (!payload) return;
+
+    publishLockRef.current = true;
+    setSaveStatus('saving');
+    try {
+      const result = await publishCompletedSession(payload);
+      setSaveStatus(result.skipped ? 'idle' : 'saved');
+    } catch {
+      publishLockRef.current = false;
+      setSaveStatus('error');
     }
-  }, [screen, session?.rawTrials]);
-
-  const beginPrepare = useCallback(() => {
-    prepareAbortRef.current?.abort();
-    const controller = new AbortController();
-    prepareAbortRef.current = controller;
-
-    setPrepareError(null);
-    setPrepareProgress({ phase: 'init', message: 'Starting…' });
-    setScreen(SCREENS.PREPARE);
-    window.scrollTo(0, 0);
-
-    prepareSession(poolData.records, {
-      imageVersion: IMAGE_VERSION,
-      signal: controller.signal,
-      onProgress: setPrepareProgress,
-    })
-      .then((result) => {
-        if (controller.signal.aborted) return;
-        if (result.error) {
-          setPrepareError(result.error);
-          return;
-        }
-
-        setSession({ rawTrials: result.rawTrials });
-        setOrder(result.order);
-        setTrialIndex(0);
-        setStats(createInitialStats());
-        setAnswered(false);
-        setChoice(null);
-        setLastCorrect(false);
-        setFeedback('');
-        setScreen(SCREENS.TRIAL);
-      })
-      .catch((err) => {
-        if (controller.signal.aborted) return;
-        setPrepareError(err.message || 'Could not prepare session.');
-      });
   }, []);
 
   const resetStudy = useCallback(() => {
-    prepareAbortRef.current?.abort();
-    setSession(null);
-    setOrder([]);
-    setTrialIndex(0);
-    setStats(createInitialStats());
-    setAnswered(false);
-    setChoice(null);
-    setLastCorrect(false);
-    setFeedback('');
-    setPrepareError(null);
-    setPrepareProgress(null);
-    setRemainingSessions(estimateRemainingSessions(poolData.records));
+    applySession({
+      order: [],
+      trialIndex: 0,
+      stats: createInitialStats(),
+      draft: null,
+      answered: false,
+      choice: null,
+      lastCorrect: false,
+      feedback: '',
+    });
+    setSaveStatus('idle');
     setScreen(SCREENS.CONSENT);
     window.scrollTo(0, 0);
-  }, []);
+  }, [applySession]);
 
   const submitAnswer = useCallback(
     (selected) => {
       if (answered || !trial) return;
 
       const result = scoreAnswer(trial, selected);
+      const reactionTimeMs = trialShownAtRef.current ? Date.now() - trialShownAtRef.current : null;
       setChoice(selected);
       setLastCorrect(result.correct);
       setFeedback(getFeedback(trial, selected, result.correct));
@@ -128,14 +118,17 @@ export default function App() {
         falseAlarms: prev.falseAlarms + result.delta.falseAlarms,
         responses: [...prev.responses, result.response],
       }));
+      setDraft((prev) => appendTrialResult(prev, trial, trialIndex, selected, result.correct, reactionTimeMs));
     },
-    [answered, trial],
+    [answered, trial, trialIndex],
   );
 
   const handleNext = useCallback(() => {
     if (trialIndex >= order.length - 1) {
+      const { draft: nextDraft, stats: nextStats } = latestRef.current;
       setScreen(SCREENS.RESULTS);
       window.scrollTo(0, 0);
+      publishDraft(nextDraft, nextStats);
       return;
     }
     setTrialIndex((i) => i + 1);
@@ -143,34 +136,53 @@ export default function App() {
     setChoice(null);
     setLastCorrect(false);
     setFeedback('');
-  }, [order.length, trialIndex]);
+  }, [order.length, publishDraft, trialIndex]);
 
   const handleStart = useCallback(() => {
-    beginPrepare();
-  }, [beginPrepare]);
+    publishLockRef.current = false;
+    applySession(beginSession());
+    setSaveStatus('idle');
+    setScreen(SCREENS.TRIAL);
+    window.scrollTo(0, 0);
+  }, [applySession]);
+
+  const handleRetrySave = useCallback(() => {
+    const { draft: nextDraft, stats: nextStats } = latestRef.current;
+    publishDraft(nextDraft, nextStats);
+  }, [publishDraft]);
+
+  useEffect(() => {
+    if (screen === SCREENS.TRIAL && trial && !answered) {
+      trialShownAtRef.current = Date.now();
+    }
+  }, [answered, screen, trial]);
 
   const content = useMemo(() => {
     if (screen === SCREENS.CONSENT) {
-      return (
-        <ConsentScreen
-          onStart={handleStart}
-          poolSize={poolData.count}
-          remainingSessions={remainingSessions}
-        />
-      );
-    }
-    if (screen === SCREENS.PREPARE) {
-      return (
-        <SessionLoader
-          progress={prepareProgress}
-          error={prepareError}
-          onRetry={beginPrepare}
-          onBack={resetStudy}
-        />
-      );
+      return <ConsentScreen onStart={handleStart} />;
     }
     if (screen === SCREENS.RESULTS) {
-      return <ResultsScreen stats={stats} totalTrials={order.length} onRestart={resetStudy} />;
+      return (
+        <ResultsScreen
+          stats={stats}
+          totalTrials={order.length}
+          onRestart={resetStudy}
+          saveStatus={saveStatus}
+          onRetrySave={handleRetrySave}
+        />
+      );
+    }
+    if (screen === SCREENS.TRIAL && !trial) {
+      return (
+        <section className="screen active">
+          <div className="panel">
+            <p>Could not build a random session from the current photo pool.</p>
+            <button type="button" className="btn primary" onClick={resetStudy}>
+              Back
+            </button>
+          </div>
+        </section>
+      );
     }
     if (trial) {
       return (
@@ -183,7 +195,6 @@ export default function App() {
           choice={choice}
           correct={lastCorrect}
           feedback={feedback}
-          imageVersion={IMAGE_VERSION}
           onSelect={submitAnswer}
           onNext={handleNext}
         />
@@ -200,14 +211,12 @@ export default function App() {
     choice,
     lastCorrect,
     feedback,
-    prepareProgress,
-    prepareError,
-    remainingSessions,
+    saveStatus,
     handleStart,
     resetStudy,
-    beginPrepare,
     submitAnswer,
     handleNext,
+    handleRetrySave,
   ]);
 
   return <div className="app">{content}</div>;

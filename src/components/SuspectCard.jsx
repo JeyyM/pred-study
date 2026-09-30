@@ -23,17 +23,7 @@ function resultBadge(index, answered, choice, correct, targetIndex) {
   return null;
 }
 
-export default function SuspectCard({
-  suspect,
-  label,
-  index,
-  answered,
-  choice,
-  correct,
-  targetIndex,
-  imageVersion,
-  onSelect,
-}) {
+export default function SuspectCard({ suspect, label, index, answered, choice, correct, targetIndex, onSelect }) {
   const badge = resultBadge(index, answered, choice, correct, targetIndex);
   const badgeClass =
     choice === index ? (correct ? 'card-badge correct' : 'card-badge wrong') : 'card-badge answer';
@@ -50,11 +40,7 @@ export default function SuspectCard({
         {badge && <span className={badgeClass}>{badge}</span>}
       </div>
       <div className="photo-wrap">
-        <img
-          src={`/images/${suspect.image}?v=${imageVersion || '1'}`}
-          alt={`Booking photo ${label}`}
-          loading="eager"
-        />
+        <img src={`/images/${suspect.image}`} alt={`Booking photo ${label}`} loading="eager" />
       </div>
     </button>
   );

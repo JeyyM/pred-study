@@ -47,13 +47,42 @@ pred test/
 
 ## Refresh mugshots from public records
 
-Photos come from **multiple sheriff booking rosters and sex offender registries** (Alabama, Arkansas, Missouri, Iowa) so backgrounds and uniforms are not all from one jail.
+Photos come from **multiple sheriff booking rosters and sex offender registries** (Alabama, Arkansas, Missouri, Iowa, Texas, and Faulkner County’s Green/FASO roster) so backgrounds and uniforms are not all from one jail.
 
 ```powershell
 npm run fetch-mugshots
 ```
 
-This downloads images to `public/images/` and rebuilds `src/data/trials.json` with matched offenses. Each trial tries to use suspects from **different source offices**.
+This **replaces** all `mug-*.jpg` files and rebuilds the pool and trials.
+
+To **add new jurisdictions without wiping** photos you already validated:
+
+```powershell
+npm run expand-pool
+```
+
+Source definitions live in `scripts/lib/sources.mjs` (BJM jail rosters, county SOR pages, Iowa-style rosters, Green/FASO rosters).
+
+After fetching or expanding the pool, backfill **name, age, gender, and race** from sheriff detail pages:
+
+```powershell
+npm run enrich-profile
+```
+
+Then refresh `/validation`. New scrapes also store age/name when available.
+
+For rows **without booking age**, estimate age locally (lineup matching only, never shown in the study):
+
+```powershell
+npm install
+npm run estimate-face-age
+npm run apply-age-matching
+npm run rebuild-trials
+```
+
+Booking age always wins over model estimates. Under-18 (booking or estimate) is excluded from trial building.
+
+**Photo variety:** Targets (often registry) and foils (often jail bookings) may differ in uniform, background, and resolution. That is acceptable for this study; note `sourceType` in methods. Jail scrapes can still add **target** passes when someone with a qualifying charge is on the roster.
 
 ## Manual edits
 
