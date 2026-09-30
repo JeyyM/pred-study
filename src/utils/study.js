@@ -36,6 +36,8 @@ function toSuspect(rec) {
     offense: rec.offense,
     category: rec.category,
     year: rec.year,
+    sourceId: rec.sourceId || null,
+    poolRole: rec.poolRole || (rec.category === 'sex' ? 'target' : 'foil'),
   };
 }
 

@@ -7,34 +7,31 @@ import './App.css';
 const loadValidationScreen = import.meta.env.DEV
   ? () => import('./components/ValidationScreen.jsx')
   : null;
+const loadDashboardScreen = import.meta.env.DEV
+  ? () => import('./components/DashboardScreen.jsx')
+  : null;
 
-function isValidationPath() {
+function researcherPath() {
   const path = window.location.pathname.replace(/\/+$/, '') || '/';
-  return path === '/validation' || path.startsWith('/validation/');
+  if (path === '/validation' || path.startsWith('/validation/')) return 'validation';
+  if (path === '/dashboard' || path.startsWith('/dashboard/')) return 'dashboard';
+  return 'study';
 }
 
 function Root() {
-  const [route, setRoute] = useState(() =>
-    isValidationAvailable() && isValidationPath() ? 'validation' : 'study',
-  );
+  const [route, setRoute] = useState(() => (isValidationAvailable() ? researcherPath() : 'study'));
   const [ValidationScreen, setValidationScreen] = useState(null);
+  const [DashboardScreen, setDashboardScreen] = useState(null);
 
   useEffect(() => {
     const sync = () => {
       if (!isValidationAvailable()) {
-        const hash = window.location.hash.replace(/^#\/?/, '');
-        if (isValidationPath() || hash === 'validation') {
-          window.history.replaceState(null, '', '/');
-        }
+        const path = researcherPath();
+        if (path !== 'study') window.history.replaceState(null, '', '/');
         setRoute('study');
         return;
       }
-
-      const hash = window.location.hash.replace(/^#\/?/, '');
-      if (hash === 'validation' && !isValidationPath()) {
-        window.history.replaceState(null, '', '/validation');
-      }
-      setRoute(isValidationPath() ? 'validation' : 'study');
+      setRoute(researcherPath());
     };
 
     sync();
@@ -57,10 +54,37 @@ function Root() {
     };
   }, [route]);
 
-  if (route === 'validation' && ValidationScreen) {
-    return <ValidationScreen />;
-  }
+  useEffect(() => {
+    if (route !== 'dashboard' || !loadDashboardScreen) return undefined;
+    let cancelled = false;
+    loadDashboardScreen().then((mod) => {
+      if (!cancelled) setDashboardScreen(() => mod.default);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [route]);
 
+  if (route === 'validation') {
+    if (ValidationScreen) return <ValidationScreen />;
+    return (
+      <section className="screen active">
+        <div className="panel">
+          <p>Loading validation…</p>
+        </div>
+      </section>
+    );
+  }
+  if (route === 'dashboard') {
+    if (DashboardScreen) return <DashboardScreen />;
+    return (
+      <section className="screen active">
+        <div className="panel">
+          <p>Loading dashboard…</p>
+        </div>
+      </section>
+    );
+  }
   return <App />;
 }
 

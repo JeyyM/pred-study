@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "serve": "node scripts/serve-study.mjs",
+    "seed-stimuli": "node scripts/seed-stimuli.mjs",
     "generate-faces": "node scripts/generate-faces.js",
     "archive-pool": "node scripts/archive-pool.mjs",
     "fetch-mugshots": "node scripts/fetch-mugshots.mjs",
